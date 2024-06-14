@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="3">
+	<listeners>
+		<listener class-name="com.cps.genericUtility.ItestListenerImtn"/>
+	</listeners>
+<test thread-count="2" name="Test">
+    <classes>
+		<class name="com.cmd.prakash.closeMultiple_TC_03"/>
+		<class name="com.cmd.prakash.createTask_TC_01"/>
+		<class name="com.cmd.prakash.manageTinLocation_TC_05"/>
+		<class name="com.cmd.prakash.onbordingForms_TC_04"/>
+        <class name="com.cmd.Vikram.SmokeTC_01"/>
+        <class name="com.cmd.Vikram.SmokeTC_02"/>
+        <class name="com.cmd.Vikram.SmokeTC_03"/>
+        <class name="com.cmd.Vikram.SmokeTC_04"/>
+        <class name="com.cmd.Vikram.SmokeTC_05"/>
+         <class name="com.cmd.Rana.Add_Com_Log"/>
+        <class name="com.cmd.Rana.Add_Note"/>
+        <class name="com.cmd.Rana.Add_user"/>
+        <class name="com.cmd.Rana.Delete_Note_Task"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

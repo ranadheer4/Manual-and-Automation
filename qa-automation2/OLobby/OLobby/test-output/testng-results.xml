@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-24T15:40:25 IST" name="Default suite" finished-at="2023-03-24T15:40:51 IST" duration-ms="26179">
+    <groups>
+    </groups>
+    <test started-at="2023-03-24T15:40:25 IST" name="Default test" finished-at="2023-03-24T15:40:51 IST" duration-ms="26179">
+      <class name="com.cmd.Vikram.SmokeTC_15">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.cmd.Vikram.SmokeTC_15@771a660]" started-at="2023-03-24T15:40:25 IST" name="launchTheBrowser" finished-at="2023-03-24T15:40:37 IST" duration-ms="12030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.cmd.Vikram.SmokeTC_15@771a660]" started-at="2023-03-24T15:40:37 IST" name="loginToAppln" finished-at="2023-03-24T15:40:37 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="editEmailTemplates()[pri:0, instance:com.cmd.Vikram.SmokeTC_15@771a660]" started-at="2023-03-24T15:40:37 IST" name="editEmailTemplates" finished-at="2023-03-24T15:40:51 IST" duration-ms="13353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmailTemplates -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.cmd.Vikram.SmokeTC_15@771a660]" started-at="2023-03-24T15:40:51 IST" name="logoutFromAppln" finished-at="2023-03-24T15:40:51 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.cmd.Vikram.SmokeTC_15@771a660]" started-at="2023-03-24T15:40:51 IST" name="closeTheBrowser" finished-at="2023-03-24T15:40:51 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.cmd.Vikram.SmokeTC_15 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
