@@ -52,7 +52,7 @@ public class Write_Read_Data {
 
 	private static void getData() throws IOException, InterruptedException {
 		
-		String excelpath="C:\\Users\\RanadheerDurgi\\git\\qa-automation(demo)\\HYBRIDAUTOMATIONFRAMEWORK\\src\\test\\resources\\CompanyData.xls";
+		String excelpath="C:\\Users\\RanadheerDurgi\\git\\qa-automation(demo)\\HYBRIDAUTOMATIONFRAMEWORK\\Rusell.xls";
 		FileInputStream fis= new FileInputStream(excelpath);
 		HSSFWorkbook workbook = new HSSFWorkbook(fis);
 		HSSFSheet sheet=workbook.getSheetAt(0);
@@ -146,7 +146,7 @@ public class Write_Read_Data {
 			
 			//Navigate to Next Page row
 			rows.next();
-			FileOutputStream fo = new FileOutputStream("C:\\Users\\RanadheerDurgi\\git\\qa-automation(demo)\\HYBRIDAUTOMATIONFRAMEWORK\\src\\test\\resources\\CompanyData.xls");
+			FileOutputStream fo = new FileOutputStream("C:\\Users\\RanadheerDurgi\\git\\qa-automation(demo)\\HYBRIDAUTOMATIONFRAMEWORK\\Rusell.xls");
 			workbook.write(fo);
 			fis.close();
 			fo.close();

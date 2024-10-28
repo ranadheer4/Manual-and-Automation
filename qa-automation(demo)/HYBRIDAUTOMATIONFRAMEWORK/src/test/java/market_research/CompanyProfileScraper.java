@@ -37,7 +37,7 @@ public class CompanyProfileScraper {
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         // Path to the Excel file
-        String excelFilePath = "C:\\Users\\RanadheerDurgi\\Desktop\\Nvidia Event_Update.xls";
+        String excelFilePath = "C:\\Users\\RanadheerDurgi\\git\\qa-automation(demo)\\HYBRIDAUTOMATIONFRAMEWORK\\Rusell.xls";
 
         // Open the Excel file
         FileInputStream fis = new FileInputStream(excelFilePath);

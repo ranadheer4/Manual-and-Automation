@@ -1,7 +1,7 @@
 package market_research;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,7 +33,7 @@ public class CompanyInfoScraper {
                     // Adding headers for the company details
                     Row headerRow = sheet.getRow(0);
                     if (headerRow == null) {
-headerRow = sheet.createRow(0);
+                    	headerRow = sheet.createRow(0);
                     }
                     headerRow.createCell(1).setCellValue("Address");
                     headerRow.createCell(2).setCellValue("Year");
